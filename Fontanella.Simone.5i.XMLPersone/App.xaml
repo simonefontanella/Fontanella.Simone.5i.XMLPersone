@@ -1,0 +1,9 @@
+﻿<Application x:Class="Fontanella.Simone._5i.XMLPersone.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Fontanella.Simone._5i.XMLPersone"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

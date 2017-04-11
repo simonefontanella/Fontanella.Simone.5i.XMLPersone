@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Rubrica>
+<Persone>
+  <Persona Nome="Marco" Cognome="Avagnano" Numero="3213819281" Indirizzo="Via Roma"></Persona>
+  <Persona Nome="Massimiliano" Cognome="Conti" Numero="3145235412" Indirizzo="Via Losanna"></Persona>
+  <Persona Nome="Thomas" Cognome="Zani" Numero="3921812812" Indirizzo="Via Verona"></Persona>
+  <Persona Nome="Dio" Cognome="The god" Numero="3666666666" Indirizzo="Via Paradisi"></Persona>
+  <Persona Nome="Matteo" Cognome="Rossi" Numero="3123412412" Indirizzo="Via a caso"></Persona>
+  </Persone>
+</Rubrica>

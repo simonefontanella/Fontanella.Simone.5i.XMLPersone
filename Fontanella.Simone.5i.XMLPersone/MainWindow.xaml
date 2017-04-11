@@ -1,0 +1,21 @@
+﻿<Window x:Class="Fontanella.Simone._5i.XMLPersone.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Fontanella.Simone._5i.XMLPersone"
+        mc:Ignorable="d"
+        Title="Fontanella Simone - XmlPersone" Height="350" Width="525" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Loaded="MainWindow_OnLoaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="8*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Background="DeepSkyBlue">
+            <Label  FontSize="19" FontWeight="Bold" Content="Rubrica Xml" HorizontalAlignment="Center"></Label>
+        </StackPanel>
+        <DataGrid Grid.Row="1" Name="dgDati"></DataGrid>
+        
+    </Grid>
+</Window>
