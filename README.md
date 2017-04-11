@@ -1,2 +1,2 @@
 # Progetto XMLPersone
-## do Fontanella Simone
+## di Fontanella Simone
