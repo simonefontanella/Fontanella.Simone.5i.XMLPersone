@@ -31,11 +31,7 @@ namespace Fontanella.Simone._5i.XMLPersone
             try
             {
                 XElement dati = XElement.Load("Persone.xml");
-                dati.Element("metei").Add(
-                            new XElement("Meteo",
-                            new XAttribute("Citta", "Prova"),
-                            new XAttribute("Temperatura", "123")
-                    );
+
                 dgDati.ItemsSource = from l in dati.Elements("Persone").First().Elements("Persona")
                                      select new Persona(l);
             }
